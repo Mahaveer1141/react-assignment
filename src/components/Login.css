@@ -1,0 +1,49 @@
+@import "antd/dist/antd.css";
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #fff0f6, #ffd6e7);
+}
+
+.form {
+  width: 90%;
+}
+
+.site-form-item-icon {
+  color: #c1c1c1;
+}
+
+.login-button {
+  width: 100%;
+}
+
+.inner-main {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  width: 25%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+  .inner-main {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .inner-main {
+    width: 70%;
+  }
+}
